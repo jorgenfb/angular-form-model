@@ -37,6 +37,11 @@ Example:
 ```html
 <form form-model="newUser">
 	<input name="username" />
+	<input name="title" />
+	<input name="firstName" />
+	<input name="middleName" />
+	<input name="lastName" />
+	<input name="occupation" />
 	<input name="email" />
 </form>
 ```
@@ -46,6 +51,11 @@ Will automatically be transformed into :
 ```html
 <form form-model="newUser">
 	<input name="username" ng-model="newUser.username" />
+	<input name="title" ng-model="newUser.title" />
+	<input name="firstName" ng-model="newUser.firstName" />
+	<input name="middleName" ng-model="newUser.middleName" />
+	<input name="lastName" ng-model="newUser.lastName" />
+	<input name="occupation" ng-model="newUser.occupation" />
 	<input name="email" ng-model="newUser.email" />
 </form>
 ```
