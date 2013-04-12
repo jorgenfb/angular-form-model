@@ -22,10 +22,15 @@ Normally you would add an ng-model attribute to each field, like this:
 ```
 
 With this directive you can define the "newUser" model on the form
-like this: <form form-model="newUser">. The directive will add 
-ng-model to all child inputs with a name attribute.
+like this:
 
-This gives you the power of ng-model with a lot less effort.
+```html
+<form form-model="newUser">
+	...
+</form>
+``` 
+
+The directive will add ng-model to all child inputs with a name attribute. This gives you the power of ng-model with a lot less effort.
 
 Example:
 
