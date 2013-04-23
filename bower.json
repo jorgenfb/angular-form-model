@@ -1,0 +1,10 @@
+{
+  "name": "angular-form-model",
+  "version": "1.0.0",
+  "main": "src/form-model.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
