@@ -1,5 +1,5 @@
 /* global angular */
-angular.module('jorgenfb.directives', []).directive('formModel', function() {
+angular.module('jorgenfb.directives', []).directive('jfbFormModel', function() {
 	'use strict';
 
     return {
