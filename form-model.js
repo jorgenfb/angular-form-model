@@ -10,7 +10,7 @@ angular.module('jorgenfb.directives', []).directive('jfbFormModel', function() {
             for (var i = 0; i < inputs.length; i++){
                 var input = inputs.eq(i);
                 if (input.attr('name')) {
-                    input.attr('ng-model', attr.formModel + '.' + input.attr('name'));
+                    input.attr('ng-model', attr.jfbFormModel + '.' + input.attr('name'));
                 }
             }
         }
