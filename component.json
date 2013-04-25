@@ -1,7 +1,7 @@
 {
   "name": "angular-form-model",
-  "version": "1.0.0",
-  "main": "src/form-model.js",
+  "version": "1.0.1",
+  "main": "form-model.js",
   "ignore": [
     "**/.*",
     "node_modules",
