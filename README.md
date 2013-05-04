@@ -25,7 +25,7 @@ With this directive you can define the "newUser" model on the form
 like this:
 
 ```html
-<form form-model="newUser">
+<form jfb-form-model="newUser">
 	...
 </form>
 ``` 
@@ -35,7 +35,7 @@ The directive will add ng-model to all child inputs with a name attribute. This 
 Example:
 
 ```html
-<form form-model="newUser">
+<form jfb-form-model="newUser">
 	<input name="username" />
 	<input name="title" />
 	<input name="firstName" />
@@ -49,7 +49,7 @@ Example:
 Will automatically be transformed into :
 
 ```html
-<form form-model="newUser">
+<form jfb-form-model="newUser">
 	<input name="username" ng-model="newUser.username" />
 	<input name="title" ng-model="newUser.title" />
 	<input name="firstName" ng-model="newUser.firstName" />
