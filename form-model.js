@@ -13,6 +13,20 @@ angular.module('jorgenfb.directives', []).directive('jfbFormModel', function() {
                     input.attr('ng-model', attr.jfbFormModel + '.' + input.attr('name'));
                 }
             }
+	    var inputs = element.find('select');
+            for (var i = 0; i < inputs.length; i++){
+                var input = inputs.eq(i);
+                if (input.attr('name')) {
+                    input.attr('ng-model', attr.jfbFormModel + '.' + input.attr('name'));
+                }
+            }
+	    var inputs = element.find('textarea');
+            for (var i = 0; i < inputs.length; i++){
+                var input = inputs.eq(i);
+                if (input.attr('name')) {
+                    input.attr('ng-model', attr.jfbFormModel + '.' + input.attr('name'));
+                }
+            }
         }
     };
 });
